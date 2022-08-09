@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0deebc5834e07e77ffa1",
+    "revision": "25eb4329376a20f25c12",
     "url": "https://pm-studios.github.io/mineral-pages/static/css/main.1d2f3430.chunk.css"
   },
   {
-    "revision": "0deebc5834e07e77ffa1",
-    "url": "https://pm-studios.github.io/mineral-pages/static/js/main.0deebc58.chunk.js"
+    "revision": "25eb4329376a20f25c12",
+    "url": "https://pm-studios.github.io/mineral-pages/static/js/main.25eb4329.chunk.js"
   },
   {
     "revision": "5a528f2ab2eff1615375",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "https://pm-studios.github.io/mineral-pages/static/js/runtime~main.ef3c3871.js"
   },
   {
-    "revision": "a4b565864d87f60f16075d0379452c17",
+    "revision": "dfb3fac797172a210a3d0c19b850f1d5",
     "url": "https://pm-studios.github.io/mineral-pages/index.html"
   }
 ];
