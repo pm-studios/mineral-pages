@@ -1,7 +1,7 @@
 {
   "main.css": "https://mineral.playgroundz.net/static/css/main.1d2f3430.chunk.css",
-  "main.js": "https://mineral.playgroundz.net/static/js/main.d67d403f.chunk.js",
-  "main.js.map": "https://mineral.playgroundz.net/static/js/main.d67d403f.chunk.js.map",
+  "main.js": "https://mineral.playgroundz.net/static/js/main.6fad92ea.chunk.js",
+  "main.js.map": "https://mineral.playgroundz.net/static/js/main.6fad92ea.chunk.js.map",
   "static/css/1.b8f8e55d.chunk.css": "https://mineral.playgroundz.net/static/css/1.b8f8e55d.chunk.css",
   "static/js/1.5a528f2a.chunk.js": "https://mineral.playgroundz.net/static/js/1.5a528f2a.chunk.js",
   "static/js/1.5a528f2a.chunk.js.map": "https://mineral.playgroundz.net/static/js/1.5a528f2a.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.1d2f3430.chunk.css.map": "https://mineral.playgroundz.net/static/css/main.1d2f3430.chunk.css.map",
   "static/css/1.b8f8e55d.chunk.css.map": "https://mineral.playgroundz.net/static/css/1.b8f8e55d.chunk.css.map",
   "index.html": "https://mineral.playgroundz.net/index.html",
-  "precache-manifest.e6c2b63b67a01b17988fb6f058ec4b25.js": "https://mineral.playgroundz.net/precache-manifest.e6c2b63b67a01b17988fb6f058ec4b25.js",
+  "precache-manifest.7516de017f836c1ddcde789159932289.js": "https://mineral.playgroundz.net/precache-manifest.7516de017f836c1ddcde789159932289.js",
   "service-worker.js": "https://mineral.playgroundz.net/service-worker.js"
 }
