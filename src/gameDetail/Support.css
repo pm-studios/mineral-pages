@@ -1,0 +1,46 @@
+.support {
+	width: 320px;
+	height: auto;
+}
+
+.supportItem {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	background-color: rgba(231, 230, 233, 0.5);
+	overflow: hidden;
+
+	margin-bottom: 16px;
+}
+
+.supportItem .spi-container {
+	padding: 16px 16px;
+}
+
+.supportItem .spi-container p {
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.supportItem .spi-container h1 {
+	color: #2dbe91;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.supportItem .spi-container h2 {
+	color: #0f0a28;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.supportItem .spi-container .spi-backer {
+	color: #2dbe91;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}

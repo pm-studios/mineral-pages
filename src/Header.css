@@ -1,0 +1,125 @@
+.header {		
+	width:100%;
+	height:66px;
+	background-color: white;
+	z-index: 9;
+	position: fixed;
+}
+
+.header p {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.header .container{
+	width: 980px;
+	height: 100%;
+	margin: auto;
+}
+
+.header .container .logo{
+	float: left;
+	height: 100%;
+	margin: auto;
+}
+
+.header .container img {
+	width: 234px;
+	height: 44px;
+	padding: 11px 5px;
+}
+
+.header .container .search {
+	float: left;
+	padding-left: 5px;
+	margin: auto;
+	height: 100%;
+}
+
+.header .container .search img {
+	width: 381px;
+	height: 42px;
+}
+
+.header .container .search input {
+	position: absolute;
+	margin-top: 21px;
+	margin-left: -330px;
+	background-color: transparent;
+	border: none;
+
+	color: #868493;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	width: 300px;
+}
+
+.header .container .search input:focus{
+    outline: none;
+}
+
+.header .container .menu {
+	float: right;
+	margin: auto;
+	width: 180px;
+	height: 100%;
+}
+
+.header .container .menu .signup_ {
+	float: right;
+	width: 116px;
+	height: 34px;
+	margin: 17px 0;
+	border-radius: 17px;
+	background-color: #5ac3dc;
+	display: flex;
+	cursor: pointer;
+}
+
+.header .container .menu .signup_ p {
+	margin: auto;
+	color: #ffffff;
+	text-align: center;
+}
+
+.header .container .menu .signin_ {
+	float: right;
+	height: 34px;
+	margin: 17px 14px;
+	display: flex;
+	cursor: pointer;
+}
+
+.header .container .menu .signin_ p {
+	margin: auto;
+	color: #5ac3dc;
+	text-align: center;
+}
+
+.header .container .menu .service img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.header .container .menu .notification img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.header .container .menu .currency {
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin: 4px 21px;
+	cursor: pointer;
+}
+
+.header .container .menu .currency img {
+	width: 40px;
+	height: 40px;
+}

@@ -1,0 +1,56 @@
+.featuredCard {
+    width: 320px;
+    height: 348px;
+    background-color: white;
+    border-radius: 8px 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.fc-banner {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;    
+}
+
+.fc-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fc-progress {
+    width: 100%;
+    height: 16px;
+    background-color: #575368;
+}
+
+.fc-progress .fc-bar {
+    width: 255px;
+    height: 100%;
+    background-color: #46d7aa;
+}
+
+.fc-info {
+    padding: 8px 16px;
+}
+
+.fc-info p {
+    color: #575368;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fc-info h1 {
+    width: 288px;
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fc-info .fc-summary {
+    width: 288px;
+    margin-top: 8px;
+}

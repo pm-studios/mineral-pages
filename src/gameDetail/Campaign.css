@@ -1,0 +1,34 @@
+.campaign {
+	width: 100%;
+}
+
+.campaign .cp-left {
+	width: 604px;
+	height: auto;
+	float: left;
+}
+
+.campaign .cp-left img {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.campaign .cp-right {
+	width: 320px;
+	height: auto;
+	float: right;
+}
+
+.campaign .cp-title {
+	margin-top: 32px;
+	margin-bottom: 6px;
+}
+
+.campaign .cp-title h1 {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}

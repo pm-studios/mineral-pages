@@ -1,0 +1,53 @@
+.featuredListCell {
+    width: 980px;
+    height: 144px;
+    background-color: white;
+    border-radius: 8px 8px;
+    overflow: hidden;
+    cursor: pointer;
+
+    margin-bottom: 8px;
+}
+
+.flc-banner {
+    width: 256px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flc-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flc-info {
+    width: 724px;
+    height: 100%;
+    padding: 16px 16px;
+}
+
+.flc-info h1 {
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flc-info p {
+    color: #575368;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.flc-info .flc-status {
+    position: relative;
+    text-align: right;
+    top: -94px;
+
+    color: #fa5050;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+}

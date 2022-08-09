@@ -1,0 +1,164 @@
+.sign_in {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+.sign_in p {
+    color: #575368;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sign_in h1 {
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sign_in .bg {
+    width: 100%;
+    height: 100%;
+}
+  
+.sign_in .container {
+    width: 750px;
+    height: 420px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 32px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-animation: slide-in .4s .0s backwards;
+    animation: slide-in .4s .0s backwards;
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.sign_in .logo {
+    width: 338px;
+    height: 61px;
+    padding: 5px 0 39px 0;
+    margin: auto;
+}
+
+.sign_in form {
+    text-align: center;
+}
+
+.sign_in form input {
+    width: 336px;
+    height: 48px;
+    border-radius: 28px;
+    background-color: #e7e6e9;
+    border-width: 0px;
+    margin-bottom: 8px;
+    padding: 0 24px 0 24px;
+
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sign_in form input::placeholder {
+    color: #868493;
+}
+
+.sign_in form input:-ms-input-placeholder {
+    color: #868493;
+}
+
+.sign_in form input::-ms-input-placeholder {
+    color: #868493;
+}
+
+.sign_in form input:focus{
+    outline: none;
+}
+
+.sign_in form .submit{
+    width: 176px;
+    height: 48px;
+    margin: auto;
+    border-radius: 24px;
+    background-color: #5ac3dc;
+    margin-top: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sign_in form .submit p {
+    margin: auto;
+    text-align: center;
+	color: #ffffff;    
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sign_in .container .close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 16px;
+    left: 715px;
+    cursor: pointer;
+}
+
+.sign_in .container .sign_up {
+    padding-top: 16px;
+}
+
+.sign_in .container .sign_up a {
+    color: #5ac3dc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sign_in .container .tos {
+    padding-top: 62px;
+}
+
+.sign_in .container .tos a {
+    color: #0096ff;
+    text-decoration: none;
+}

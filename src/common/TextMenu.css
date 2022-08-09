@@ -1,0 +1,15 @@
+.textmenu_item_active {
+	color: #46d7aa;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.textmenu_item_deactive {
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}

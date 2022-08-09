@@ -1,0 +1,26 @@
+.faq {
+	width: 100%;
+	height: auto;
+}
+
+.faq .fq-title {
+	margin-top: 32px;
+	margin-bottom: 26px;
+}
+
+.faq .fq-title h1 {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.faq .fq-button {
+	width: 140px;
+	height: 40px;
+	background-color: #2dbe91;
+	cursor: pointer;
+
+	color: white;
+	text-align: center;
+}

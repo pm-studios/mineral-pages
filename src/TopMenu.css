@@ -1,0 +1,57 @@
+.topMenu {		
+	width: 100%;
+	height: 60px;	
+	padding-top: 66px;
+	background-color: #fa5050;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+}
+
+.topMenu a:active {
+    color: #868493;
+}
+
+.topMenu .container {
+	width: 980px;
+	height: 100%;
+	margin: auto;	
+	text-align: left;
+}
+
+.topMenu .container .tm-startprj {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+
+	margin-top: -15px;
+	float: right;
+}
+
+.topMenu .container ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 15px 0;
+	cursor: pointer;
+
+    color: #0f0a28;
+  	font-family: Poppins;
+  	font-size: 20px;
+}
+
+.topMenu .container li {  
+	float: left;
+}
+
+.topMenu .textmenu_item_active {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.topMenu .textmenu_item_deactive {
+	color: rgba(255, 255, 255, 0.5);
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}

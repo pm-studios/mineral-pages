@@ -1,0 +1,108 @@
+.status {
+	width: 320px;
+	height: 352px;
+	border-radius: 8px 8px;
+	background-color: #dff3f8;
+	overflow: hidden;
+}
+
+.status .sta-progress {
+	width: 100%;
+	height: 18px;
+	background-color: #575368;
+}
+
+.status .sta-progress .sta-bar {
+	width: 0px;
+	height: 100%;
+	background-color: #46d7aa;
+}
+
+.status .sta-progress .sta-bar p {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 600;
+
+	padding-left: 16px;
+}
+
+.status .sta-container {
+	padding: 16px 16px;
+}
+
+.status .sta-container p {
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.status .sta-container h1 {
+	color: #2dbe91;
+	font-family: Poppins;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.status .sta-container h2 {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 0%;
+}
+
+.status .sta-fundButton {
+	width: 290px;
+	height: 64px;
+	border-radius: 8px;
+	background-image: linear-gradient(180deg, #46d7aa 0%, #30a799 100%);
+	cursor: pointer;
+
+	margin-top: 16px;
+
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.status .sta-fundButton-completed {
+	width: 290px;
+	height: 64px;
+	border-radius: 8px;
+	background-color: #ffc350;
+
+	margin-top: 16px;
+
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.status .sta-fundButton-completed .stafb-inner {
+	width: 274px;
+	height: 48px;
+	border-radius: 7px;
+	border: 3px solid #ffffff;
+}
+
+.status .sta-remindButton {
+	width: 290px;
+	height: 48px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	cursor: pointer;
+
+	margin-top: 8px;
+
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}

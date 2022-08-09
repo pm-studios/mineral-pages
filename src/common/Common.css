@@ -1,0 +1,5 @@
+.vertical-align {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}

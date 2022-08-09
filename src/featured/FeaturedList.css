@@ -1,0 +1,22 @@
+.featuredList {
+    width:980px; 
+    height:100%; 
+    margin: 20px 10px 50px 0;
+    border-radius: 8px 8px;
+    overflow: hidden;
+    background-color: #e7e6e9;
+}
+
+.fl-top {
+    
+}
+
+.fl-middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.fl-bottom {
+    margin-top: 26px;
+}

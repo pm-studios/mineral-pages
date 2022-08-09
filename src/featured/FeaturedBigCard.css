@@ -1,0 +1,95 @@
+.featuredBigCard {
+    width: 980px;
+    height: 610px;
+    margin-bottom: 40px;
+}
+
+.featuredBigCard h1 {
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.fbg-container {
+    width: 100%;
+    height: 560px;
+    background-color: lightgray;
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.fbg-banner {
+    width: 100%;
+    height: 528px;
+    overflow: hidden;    
+}
+
+.fbg-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fbg-info {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to top, #000000 0%, rgba(84, 84, 84, 0) 100%);
+    margin-top: -298px;
+    padding-left: 16px;
+}
+
+.fbg-info .title {
+    margin-top: 158px;
+}
+
+.fbg-info .title h1 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.fbg-info .desc p {
+    height: 79px;
+    opacity: 0.6;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fbg-progress {
+    width: 100%;
+    height: 32px;
+    background-color: #575368;
+}
+
+.fbg-progress .fbg-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #46d7aa;
+}
+
+.fbg-progress .fbg-bar p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+
+    padding-top: 4px;
+    padding-left: 16px;
+}
+
+.fbg-index {
+    width: 60px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #575368;
+
+    margin-top: 16px;
+    margin-left: 450px;
+}
