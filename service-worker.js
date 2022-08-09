@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://mineral.playgroundz.net/precache-manifest.7516de017f836c1ddcde789159932289.js"
+  "https://pm-studios.github.io/mineral-pages/precache-manifest.5c04605f5674e76b6d1712e81d4e21b2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://mineral.playgroundz.net/index.html", {
+workbox.routing.registerNavigationRoute("https://pm-studios.github.io/mineral-pages/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

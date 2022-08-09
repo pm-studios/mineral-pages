@@ -1,15 +1,15 @@
 {
-  "main.css": "https://mineral.playgroundz.net/static/css/main.1d2f3430.chunk.css",
-  "main.js": "https://mineral.playgroundz.net/static/js/main.6fad92ea.chunk.js",
-  "main.js.map": "https://mineral.playgroundz.net/static/js/main.6fad92ea.chunk.js.map",
-  "static/css/1.b8f8e55d.chunk.css": "https://mineral.playgroundz.net/static/css/1.b8f8e55d.chunk.css",
-  "static/js/1.5a528f2a.chunk.js": "https://mineral.playgroundz.net/static/js/1.5a528f2a.chunk.js",
-  "static/js/1.5a528f2a.chunk.js.map": "https://mineral.playgroundz.net/static/js/1.5a528f2a.chunk.js.map",
-  "runtime~main.js": "https://mineral.playgroundz.net/static/js/runtime~main.6608fa7e.js",
-  "runtime~main.js.map": "https://mineral.playgroundz.net/static/js/runtime~main.6608fa7e.js.map",
-  "static/css/main.1d2f3430.chunk.css.map": "https://mineral.playgroundz.net/static/css/main.1d2f3430.chunk.css.map",
-  "static/css/1.b8f8e55d.chunk.css.map": "https://mineral.playgroundz.net/static/css/1.b8f8e55d.chunk.css.map",
-  "index.html": "https://mineral.playgroundz.net/index.html",
-  "precache-manifest.7516de017f836c1ddcde789159932289.js": "https://mineral.playgroundz.net/precache-manifest.7516de017f836c1ddcde789159932289.js",
-  "service-worker.js": "https://mineral.playgroundz.net/service-worker.js"
+  "main.css": "https://pm-studios.github.io/mineral-pages/static/css/main.1d2f3430.chunk.css",
+  "main.js": "https://pm-studios.github.io/mineral-pages/static/js/main.0deebc58.chunk.js",
+  "main.js.map": "https://pm-studios.github.io/mineral-pages/static/js/main.0deebc58.chunk.js.map",
+  "static/css/1.b8f8e55d.chunk.css": "https://pm-studios.github.io/mineral-pages/static/css/1.b8f8e55d.chunk.css",
+  "static/js/1.5a528f2a.chunk.js": "https://pm-studios.github.io/mineral-pages/static/js/1.5a528f2a.chunk.js",
+  "static/js/1.5a528f2a.chunk.js.map": "https://pm-studios.github.io/mineral-pages/static/js/1.5a528f2a.chunk.js.map",
+  "runtime~main.js": "https://pm-studios.github.io/mineral-pages/static/js/runtime~main.ef3c3871.js",
+  "runtime~main.js.map": "https://pm-studios.github.io/mineral-pages/static/js/runtime~main.ef3c3871.js.map",
+  "static/css/main.1d2f3430.chunk.css.map": "https://pm-studios.github.io/mineral-pages/static/css/main.1d2f3430.chunk.css.map",
+  "static/css/1.b8f8e55d.chunk.css.map": "https://pm-studios.github.io/mineral-pages/static/css/1.b8f8e55d.chunk.css.map",
+  "index.html": "https://pm-studios.github.io/mineral-pages/index.html",
+  "precache-manifest.5c04605f5674e76b6d1712e81d4e21b2.js": "https://pm-studios.github.io/mineral-pages/precache-manifest.5c04605f5674e76b6d1712e81d4e21b2.js",
+  "service-worker.js": "https://pm-studios.github.io/mineral-pages/service-worker.js"
 }
