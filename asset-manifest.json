@@ -1,15 +1,15 @@
 {
-  "main.css": "/mineral-pages/static/css/main.e11a4208.chunk.css",
-  "main.js": "/mineral-pages/static/js/main.6da1e5f8.chunk.js",
-  "main.js.map": "/mineral-pages/static/js/main.6da1e5f8.chunk.js.map",
+  "main.css": "/mineral-pages/static/css/main.b5d78b56.chunk.css",
+  "main.js": "/mineral-pages/static/js/main.dc2ad5c2.chunk.js",
+  "main.js.map": "/mineral-pages/static/js/main.dc2ad5c2.chunk.js.map",
   "static/css/1.e6bee932.chunk.css": "/mineral-pages/static/css/1.e6bee932.chunk.css",
-  "static/js/1.87fed089.chunk.js": "/mineral-pages/static/js/1.87fed089.chunk.js",
-  "static/js/1.87fed089.chunk.js.map": "/mineral-pages/static/js/1.87fed089.chunk.js.map",
+  "static/js/1.ca861561.chunk.js": "/mineral-pages/static/js/1.ca861561.chunk.js",
+  "static/js/1.ca861561.chunk.js.map": "/mineral-pages/static/js/1.ca861561.chunk.js.map",
   "runtime~main.js": "/mineral-pages/static/js/runtime~main.b1399f07.js",
   "runtime~main.js.map": "/mineral-pages/static/js/runtime~main.b1399f07.js.map",
+  "static/css/main.b5d78b56.chunk.css.map": "/mineral-pages/static/css/main.b5d78b56.chunk.css.map",
   "static/css/1.e6bee932.chunk.css.map": "/mineral-pages/static/css/1.e6bee932.chunk.css.map",
-  "static/css/main.e11a4208.chunk.css.map": "/mineral-pages/static/css/main.e11a4208.chunk.css.map",
   "index.html": "/mineral-pages/index.html",
-  "precache-manifest.0a83bae05cdcc7aee1042066f31cb5cb.js": "/mineral-pages/precache-manifest.0a83bae05cdcc7aee1042066f31cb5cb.js",
+  "precache-manifest.a1bfaf95fa2aaea75ebd3040373c97de.js": "/mineral-pages/precache-manifest.a1bfaf95fa2aaea75ebd3040373c97de.js",
   "service-worker.js": "/mineral-pages/service-worker.js"
 }
