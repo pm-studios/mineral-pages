@@ -60,7 +60,7 @@ export class Status extends Component {
           </div>
           {fundingCompleted ? this.renderCompletedButton() : this.renderFundButton()}
           <div className="sta-remindButton vertical-center horizontal-direction">
-            <img src="/images/IconWantOn.svg" />
+            <img src="/mineral-pages/images/IconWantOn.svg" />
             <p className="vertical-center">Remind me</p>
           </div>
         </div>

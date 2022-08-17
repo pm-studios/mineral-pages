@@ -117,7 +117,7 @@ export class GameDetail extends Component {
           Back this project
         </div>
         <div className="gd-wantButton horizontal-direction vertical-center">
-          <img className="vertical-center" src="/images/IconWantOn.svg" />
+          <img className="vertical-center" src="/mineral-pages/images/IconWantOn.svg" />
           <p className="vertical-center">Remind me</p>
         </div>
       </div>

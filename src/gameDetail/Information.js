@@ -24,21 +24,21 @@ export class Information extends Component {
         <div className="divider" />
 
         <div className="margin-t-16 margin-b-16 horizontal-direction">
-        <img className="padding-r-8" src="/images/IconFeatured.svg" />
+        <img className="padding-r-8" src="/mineral-pages/images/IconFeatured.svg" />
           <p className="vertical-center padding-r-24">Featured</p>
-          <img className="padding-r-8" src="/images/IconGenre.svg" />
+          <img className="padding-r-8" src="/mineral-pages/images/IconGenre.svg" />
           <p className="vertical-center padding-r-24">{this.props.item.genre}</p>
-          <img className="padding-r-8" src="/images/IconLocation.svg" />
+          <img className="padding-r-8" src="/mineral-pages/images/IconLocation.svg" />
           <p className="vertical-center padding-r-24">{this.props.item.location}</p>
         </div>
 
         <div className="divider" />
 
         <div className="inf-share margin-t-16 horizontal-direction">
-          <img className="padding-r-24" src="/images/BtnFacebook.svg" />
-          <img className="padding-r-24" src="/images/BtnTwitter.svg" />
-          <img className="padding-r-24" src="/images/BtnEmail.svg" />
-          <img className="padding-r-24" src="/images/BtnCopyURL.svg" />
+          <img className="padding-r-24" src="/mineral-pages/images/BtnFacebook.svg" />
+          <img className="padding-r-24" src="/mineral-pages/images/BtnTwitter.svg" />
+          <img className="padding-r-24" src="/mineral-pages/images/BtnEmail.svg" />
+          <img className="padding-r-24" src="/mineral-pages/images/BtnCopyURL.svg" />
         </div>
       </div>
     );

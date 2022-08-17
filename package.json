@@ -1,5 +1,6 @@
 {
   "name": "mineral_web",
+  "homepage": "https://pm-studios.github.io/mineral-pages/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,8 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync ./build s3://mineral.playgroundz.net --profile=playgroundz-deploy-s3",
-    "invalidate": "aws cloudfront create-invalidation --profile=playgroundz-deploy-s3 --distribution-id E1U1UJSKHKV0WA --paths \"/*\""
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,7 +40,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "proxy": "http://eyeq-env.mznbisszvq.us-west-2.elasticbeanstalk.com/api",
-  "proxy_test": "http://54.200.127.93:8000/api"
+  ]
 }

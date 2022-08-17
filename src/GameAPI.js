@@ -83,7 +83,7 @@ const GameAPI = [
     slug:'nightwar',
     title:'Battle Chasers: Nightwar',
     desc:'Classic JRPG combat meets action packed dungeons and stylish storytelling. Use skills and strategy to survive a lush, brutal landscape. If you missed the campaign, you can still contribute on Battlechasers.com!',
-    videoUrl:'https://ksr-video.imgix.net/projects/710158/video-581026-h264_high.mp4',
+    videoUrl:'https://youtu.be/qfpA3otoTAQ',
     bannerUrl:'https://hb.imgix.net/9fde24e81a4fc97ff441847fc690673946efd9b9.jpg?auto=compress,format&fit=crop&h=353&w=616&s=5d97bc98f0bc5d75eaf29fa8d04b686a',
     backgroundUrl:'https://www.wallpaperup.com/uploads/wallpapers/2016/11/22/1051765/5577b45e75820dcee048b796b1d420b4-700.jpg',
     fundAmount:456354,
@@ -301,7 +301,7 @@ const GameAPI = [
     slug:'armello',
     title:'Armello - Bringing Tabletop Adventures to Life',
     desc:'A digital card and board game of heroes and high-adventure set in the fairy-tale animal kingdom of Armello!',
-    videoUrl:'https://ksr-video.imgix.net/projects/769208/video-370509-h264_high.mp4',
+    videoUrl:'https://youtu.be/9DIV8Hwy4n0',
     bannerUrl:'https://ksr-ugc.imgix.net/assets/013/249/101/674fd692cbb22c1579a21dfdd3c9ba7d_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1470117218&auto=format&frame=1&q=92&s=aa0bd29d195b9485f18b3394f24a7355',
     backgroundUrl:'https://ksr-ugc.imgix.net/assets/013/249/101/674fd692cbb22c1579a21dfdd3c9ba7d_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1470117218&auto=format&frame=1&q=92&s=aa0bd29d195b9485f18b3394f24a7355',
     fundAmount:305360,
@@ -363,7 +363,7 @@ const GameAPI = [
     slug:'bloodstained',
     title:'Bloodstained: Ritual of the Night',
     desc:'IGAVANIA (n): A gothic, exploration-focused action platformer, designed by one of the godfathers of the genre!',
-    videoUrl:'https://ksr-video.imgix.net/projects/1835452/video-536680-h264_high.mp4',
+    videoUrl:'https://youtu.be/pXGlDbDMnVE',
     bannerUrl:'https://ksr-ugc.imgix.net/assets/003/974/785/b58b6c66285673f0f5780b060bad8645_original.png?ixlib=rb-1.1.0&crop=faces%2Cedges&w=560&h=315&fit=crop&v=1434167419&auto=format&frame=1&q=92&s=165a97a825f6d9a5e61a5150c87cea5b',
     backgroundUrl:'https://ksr-ugc.imgix.net/assets/003/974/785/b58b6c66285673f0f5780b060bad8645_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1434167419&auto=format&frame=1&q=92&s=c4c27eafeec33658cbd7877c02035c68',
     fundAmount:5545991,
@@ -465,7 +465,7 @@ const GameAPI = [
     slug:'torment',
     title:'Torment: Tides of Numenera',
     desc:'A story-driven CRPG set in the world of Monte Cooks Numenera. We are deeply appreciative to all of you who made this possible. Torment: Tides of Numenera is available now for PC on Steam or GOG, as well as PlayStation 4 and Xbox One.',
-    videoUrl:'https://ksr-video.imgix.net/projects/444692/video-213982-h264_high.mp4',
+    videoUrl:'https://youtu.be/U1dk4uPgJdg',
     bannerUrl:'https://ksr-ugc.imgix.net/assets/018/224/310/0fa4a08b7ff10dc4576cfc59367949c2_original.png?ixlib=rb-1.1.0&crop=faces%2Cedges&w=560&h=315&fit=crop&v=1504740191&auto=format&frame=1&q=92&s=a6030b7a4881852d24a57e744d67a069',
     backgroundUrl:'https://ksr-ugc.imgix.net/assets/018/224/310/0fa4a08b7ff10dc4576cfc59367949c2_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1504740191&auto=format&frame=1&q=92&s=f7160ff37ff2422b526754f34fd21380',
     fundAmount:4985,
@@ -543,7 +543,7 @@ const GameAPI = [
     slug:'eternity',
     title:'Pillars of Eternity',
     desc:'Pillars of Eternity is an isometric, party-based computer RPG set in a new fantasy world developed by Obsidian Entertainment.',
-    videoUrl:'https://ksr-video.imgix.net/projects/289461/video-170526-h264_high.mp4',
+    videoUrl:'https://youtu.be/zAw4v6JbCBI',
     bannerUrl:'https://ksr-ugc.imgix.net/assets/003/523/186/f4b7ac6d0da458bfd4f18cafa49627cd_original.png?ixlib=rb-1.1.0&crop=faces%2Cedges&w=560&h=315&fit=crop&v=1427655026&auto=format&frame=1&q=92&s=30921cb0703e48bb56e4015231f18a80',
     backgroundUrl:'https://ksr-ugc.imgix.net/assets/003/523/186/f4b7ac6d0da458bfd4f18cafa49627cd_original.png?ixlib=rb-1.1.0&w=700&fit=max&v=1427655026&auto=format&frame=1&q=92&s=eb724cb3e25bc1da56fc0b6548a0344a',
     fundAmount:1072731,
@@ -593,7 +593,5 @@ const GameAPI = [
   }
 ]
 
-
-export const API_HOST = "https://api.playgroundz.net/api";
 
 export default GameAPI;

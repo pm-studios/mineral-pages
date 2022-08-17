@@ -6,9 +6,7 @@ import PropTypes from 'prop-types';
 import Overlay from '../common/Overlay'
 import './Signup.css';
 
-import * as authActions from "../store/modules/auth";
-
-class Signup extends Component {
+export default class Signup extends Component {
   static propTypes = {
     onClose: PropTypes.func.isRequired
   }
@@ -41,8 +39,8 @@ class Signup extends Component {
 
   initialize = () => {
     const { initializeInput, initializeError } = this.props;
-    initializeError();
-    initializeInput();
+    //initializeError();
+    //initializeInput();
   };
 
   handleSignup = () => {
@@ -62,8 +60,8 @@ class Signup extends Component {
     if(name === 'password') this.setState({ password: value });
     if(name === 're_password') this.setState({ re_password: value });
 
-    const { changeInput } = this.props;
-    changeInput({ name, value });
+    //const { changeInput } = this.props;
+    //changeInput({ name, value });
   }
 
   handleRepasswordChange(e) {
@@ -85,7 +83,7 @@ class Signup extends Component {
           <div className="container" >
             <h1>Welcome to</h1>
             <div className="logo">
-              <img src={'/images/playgroundz_logo.svg'} alt='Playgroundz' />
+              <img src={'/mineral-pages/images/playgroundz_logo.svg'} alt='Playgroundz' />
             </div>
             <form>
               <input type="email" name="username" placeholder="Email" onChange={this.handleChange.bind(this)} onKeyPress={this.handleKeyPress.bind(this)} maxLength="50" required />
@@ -96,7 +94,7 @@ class Signup extends Component {
               </div>
             </form>
             <div onClick={this.props.onClose} className="close">
-              <img src={'/images/popup_close.svg'} alt='Playgroundz' />
+              <img src={'/mineral-pages/images/popup_close.svg'} alt='Playgroundz' />
             </div>
             <div className="signin">
               <p>Already have an account? <a href='#' onClick={this.handleSignin}>Sign In</a></p>
@@ -112,33 +110,3 @@ class Signup extends Component {
     )
   }
 }
-
-const mapStateToProps = state => ({
-  username: state.auth.form.username,
-  password: state.auth.form.password,
-  userInfo: state.auth.userInfo,
-  logged: state.auth.logged,
-  error: state.auth.error
-});
-
-const mapDispatchToProps = dispatch => {
-  return {
-    initializeInput: () => {
-      dispatch(authActions.initializeInput());
-    },
-    changeInput: ({ name, value }) => {
-      dispatch(authActions.changeInput({ name, value }));
-    },
-    initializeError: () => {
-      dispatch(authActions.initializeError());
-    },
-    register: () => {
-      dispatch(authActions.register());
-    }
-  };
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Signup);

@@ -14,15 +14,15 @@ class ServiceMenu extends Component {
     switch (name)
     {
       case "eyeq":
-        window.location.assign('https://eyeq.playgroundz.net/');
+        window.location.assign('https://pm-studios.github.io/eyeq-pages');
         break;
 
       case "aki":
-        window.location.assign('https://aki.playgroundz.net/');
+        window.location.assign('https://pm-studios.github.io/aki-pages');
         break;
 
       case "mineral":
-        window.location.assign('https://mineral.playgroundz.net/');
+        window.location.assign('https://pm-studios.github.io/mineral-pages');
         break;
     }
 
@@ -58,7 +58,7 @@ class ServiceMenuItem extends Component {
     return (
       <div className={styleName} onClick={this.handleClick}>
         <div className="vertical-center">
-          <img src={'/images/logo_' + this.props.name + '.svg'} alt='icon' />
+          <img src={'/mineral-pages/images/logo_' + this.props.name + '.svg'} alt='icon' />
         </div>
         <div className="vertical-center padding-l-8">
           <h1>{this.props.title}</h1>

@@ -8,9 +8,7 @@ import Signup from './signup/Signup'
 import Signin from './signup/Signin'
 import './Header.css';
 
-import * as authActions from "./store/modules/auth";
-
-export class Header extends Component {
+export default class Header extends Component {
 	state = {
 		visibleSignupPopup: false,
 		visibleSigninPopup: false,
@@ -19,7 +17,7 @@ export class Header extends Component {
 	}
 
 	componentDidMount() {
-		this.checkUser();
+		//this.checkUser();
 	}
 
 	componentDidUpdate(prevProps, prevState) {
@@ -73,45 +71,30 @@ export class Header extends Component {
 	renderSigninPopup = () => (
 		<Signin onClose={this.handleCloseSignin} onSignup={this.handleOpenSignup}  />
 	)
-
-	checkUser = () => {
-		const cookies = new Cookies();
-//		if (localStorage.getItem("userInfo")) {
-		if (cookies.get("userInfo")) {
-//			const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-			const userInfo = cookies.get("userInfo");
-			this.props.setUserTemp({
-				id: userInfo.id,
-				username: userInfo.username,
-				token: userInfo.token
-			});
-		}
-
-		this.props.checkUser();
-	};
-
+	
 	render() {
 		const { logged, username } = this.props;
 		return (
 			<div className="header">
 				<div className="container">
 					<div className="logo">
-						<Link to={'/'}><img src={'/images/mineral_logo.png'} alt='Aki' /></Link>
+						<Link to={'/'}><img src={'/mineral-pages/images/mineral_logo.png'} alt='Mineral' /></Link>
 					</div>
 					<div className="search">
-						<img src={'/images/search.svg'} />
+						<img src={'/mineral-pages/images/search.svg'} />
 						<input type="search" name="search" placeholder="Search" />
 					</div>
 					<div className="menu horizontal-direction">
 						<div className="service vertical-center" onClick={this.handleOpenServiceMenu} >
-							<img src={'/images/icon_service_menu.svg'} />
+							<img src={'/mineral-pages/images/icon_service_menu.svg'} />
 						</div>
 						<div className="notification vertical-center">
-							<img src={'/images/icon_notification.svg'} />
+							<img src={'/mineral-pages/images/icon_notification.svg'} />
 						</div>
 						<div className="signin_" onClick={logged ? this.handleSignout : this.handleOpenSignin} >
 							<p>{logged ? username : 'Sign In'}</p>
 						</div>
+						{!logged && <div className="signup_" onClick={this.handleOpenSignup} ><p>Get Started</p></div>}
 					</div>
 				</div>
 				{this.state.visibleServiceMenu && this.renderServiceMenu()}
@@ -121,31 +104,3 @@ export class Header extends Component {
 		)
 	}
 }
-
-const mapStateToProps = state => ({
-	logged: state.auth.logged,
-	needed: state.auth.needed,
-	username: state.auth.userInfo.username
-});
-  
-const mapDispatchToProps = dispatch => {
-	return {
-		logout: () => {
-			dispatch(authActions.logout());
-		},
-		checkUser: () => {
-			dispatch(authActions.checkUser());
-		},
-		setUserTemp: ({ id, username }) => {
-			dispatch(authActions.setUserTemp({ id, username }));
-		},
-        needLogin: (needed) => {
-            dispatch(authActions.needLogin(needed));
-        }
-	};
-};
-  
-export default connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(Header);

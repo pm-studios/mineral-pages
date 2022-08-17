@@ -14,7 +14,7 @@ export class Campaign extends Component {
   renderImages = () => {
     let images = [];
     for (let i = 0; i < this.props.item.aboutImgCount; i++) {
-      images.push(<img src={'/images/dummy/' + this.props.item.aboutImgPrefix + '/' + (i + 1) + '.jpg'} />)
+      images.push(<img src={'/mineral-pages/images/dummy/' + this.props.item.aboutImgPrefix + '/' + (i + 1) + '.jpg'} />)
     }
     return images
   }

@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import Overlay from '../common/Overlay'
 import './Signin.css';
 
-import * as authActions from "../store/modules/auth";
+//import * as authActions from "../store/modules/auth";
 
-class Signin extends Component {
+export default class Signin extends Component {
   static propTypes = {
     onClose: PropTypes.func.isRequired
   }
@@ -36,8 +36,8 @@ class Signin extends Component {
 
   initialize = () => {
     const { initializeInput, initializeError } = this.props;
-    initializeError();
-    initializeInput();
+    //initializeError();
+    //initializeInput();
   };
 
   handleSignup = () => {
@@ -46,9 +46,9 @@ class Signin extends Component {
   }
   
   handleChange(e) {
-    const { name, value } = e.target;
-    const { changeInput } = this.props;
-    changeInput({ name, value });
+    //const { name, value } = e.target;
+    //const { changeInput } = this.props;
+    //changeInput({ name, value });
   }
 
   handleKeyPress(e) {
@@ -71,7 +71,7 @@ class Signin extends Component {
           <div className="container" >
             <h1>Welcome to</h1>
             <div className="logo">
-              <img src={'/images/playgroundz_logo.svg'} alt='Playgroundz' />
+              <img src={'/mineral-pages/images/playgroundz_logo.svg'} alt='Playgroundz' />
             </div>
             <form>
               <input type="email" name="username" placeholder="Email" onChange={this.handleChange.bind(this)} onKeyPress={this.handleKeyPress.bind(this)} maxLength="50" required />
@@ -81,7 +81,7 @@ class Signin extends Component {
               </div>
             </form>
             <div onClick={this.props.onClose} className="close">
-              <img src={'/images/popup_close.svg'} alt='Playgroundz' />
+              <img src={'/mineral-pages/images/popup_close.svg'} alt='Playgroundz' />
             </div>
             <div className="sign_up">
               <p>Don't you have an account yet? <a href='#' onClick={this.handleSignup}>Sign Up</a></p>
@@ -92,33 +92,3 @@ class Signin extends Component {
     )
   }
 }
-
-const mapStateToProps = state => ({
-    username: state.auth.form.username,
-    password: state.auth.form.password,
-    userInfo: state.auth.userInfo,
-    logged: state.auth.logged,
-    error: state.auth.error
-});
-
-const mapDispatchToProps = dispatch => {
-    return {
-        initializeInput: () => {
-            dispatch(authActions.initializeInput());
-        },
-        changeInput: ({ name, value }) => {
-            dispatch(authActions.changeInput({ name, value }));
-        },
-        initializeError: () => {
-            dispatch(authActions.initializeError());
-        },
-        login: () => {
-            dispatch(authActions.login());
-        }
-    };
-};
-  
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(Signin);
